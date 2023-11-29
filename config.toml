@@ -1,0 +1,107 @@
+baseURL = "https://shaopengchen.github.io/"
+## languageCode = "en"
+theme = "hugo-coder"
+title = "PUMBAA"
+defaultContentLanguage = "zh-cn"
+paginate = 10
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "Shaopeng"
+description = "PUMBAA"
+keywords = "blog,project,interest"
+info = ["HAKUNA MATATA"]
+avatarURL = "images/avatar.jpg"
+dateFormat = "January 2, 2006"
+since = 2023
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 0
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+# Custom remote JS files
+customRemoteJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/ShaopengChen/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 2
+url = "https://twitter.com/shaopeng17"
+
+# [languages.en]
+# languageName = "English"
+
+# [[languages.en.menu.main]]
+# name = "About"
+# weight = 1
+# url = "about/"
+
+# [[languages.en.menu.main]]
+# name = "Blog"
+# weight = 2
+# url = "posts/"
+
+# [[languages.en.menu.main]]
+# name = "Project"
+# weight = 3
+# url = "projects/"
+
+# [[languages.en.menu.main]]
+# name = "Contact"
+# weight = 4
+# url = "contact/"
+
+[languages.zh-cn]
+languageName = "简体中文"
+title = "ShaoPeng"
+
+[languages.zh-cn.params]
+author = "ShaoPeng"
+info = "HAKUNA MATATA"
+description = "PUMBAA"
+keywords = "博客,项目,爱好"
+
+[[languages.zh-cn.menu.main]]
+name = "简介"
+weight = 1
+url = "about/"
+
+[[languages.zh-cn.menu.main]]
+name = "博客"
+weight = 2
+url = "posts/"
+
+[[languages.zh-cn.menu.main]]
+name = "项目"
+weight = 3
+url = "projects/"
+
+[[languages.zh-cn.menu.main]]
+name = "联系"
+weight = 4
+url = "contact/"
